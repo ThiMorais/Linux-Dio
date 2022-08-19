@@ -12,7 +12,7 @@ echo "Baixando e copiando os arquivos da aplicação..."
 cd /tmp
 wget https://github.com/ThiMorais/SQL-para-DataScience/archive/refs/heads/main.zip
 unzip main.zip
-cd SQL-para-DataScience-main
+cd SQL-para-DataScience
 cp -R * /var/www/html/
 
 
